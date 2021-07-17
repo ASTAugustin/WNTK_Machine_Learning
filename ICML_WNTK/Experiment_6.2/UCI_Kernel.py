@@ -7,8 +7,8 @@ import tools
 from itertools import combinations, product
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-dir', default = "Experiment_UCI//data", type = str, help = "data directory")
-parser.add_argument('-file', default = "Experiment_UCI//uci_result.log", type = str, help = "Output File")
+parser.add_argument('-dir', default = "Experiment_UCI\data", type = str, help = "data directory")
+parser.add_argument('-file', default = "Experiment_UCI\uci_result.log", type = str, help = "Output File")
 parser.add_argument('-max_tot', default = 5000, type = int, help = "Maximum number of data samples")
 parser.add_argument('-max_dep', default = 5, type = int, help = "Maximum number of depth")
 
